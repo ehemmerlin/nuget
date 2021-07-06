@@ -1,2 +1,2 @@
-Write-Host “Built on TeamCity Docker agent”
-Write-Host get-date
+$CurrentDateTime = Get-Date
+Write-Host "Built on TeamCity Docker agent on $CurrentDateTime"
